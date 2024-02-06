@@ -1,25 +1,26 @@
 {
-  "name": "godot-snippets-vscode-csharp",
-  "displayName": "Godot Snippets for C#",
-  "description": "Godot code snippets for C#",
-  "icon": "icon.png",
-  "version": "1.0.0",
-  "publisher": "altamkp",
-  "engines": {
-    "vscode": "^1.86.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "csharp",
-        "path": "./snippets/snippets.code-snippets"
-      }
-    ]
-  },
-  "repository": {
-    "url": "https://github.com/altamkp/godot-snippets-vscode-csharp"
-}
+    "name": "godot-snippets-vscode-csharp",
+    "displayName": "Godot Snippets for C#",
+    "description": "Godot code snippets for C#",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "publisher": "altamkp",
+    "engines": {
+        "vscode": "^1.86.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "csharp",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    },
+    "repository": {
+        "url": "https://github.com/altamkp/godot-snippets-vscode-csharp"
+    },
+    "homepage": "https://github.com/altamkp/godot-snippets-vscode-csharp/blob/master/README.md"
 }

@@ -2,7 +2,7 @@
 
 ![Showcase](docs/images/showcase.gif)
 
-Provides a set of code snippets for Godot in C#, click [here](https://marketplace.visualstudio.com/items?itemName=altamkp.godot-snippets-vscode-gdscript) for a gdscript version instead.
+Provides a set of code snippets for Godot in C#.
 
 ## Installation
 
