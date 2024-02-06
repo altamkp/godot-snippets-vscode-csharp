@@ -1,0 +1,135 @@
+{
+    // Godot utils
+    "Godot print": {
+        "prefix": "print",
+        "body": "GD.Print($1);",
+        "description": "Print to Godot console"
+    },
+    
+    // Lifecycle virtual methods
+    "Godot _EnterTree()": {
+        "prefix": "entertree",
+        "body": [
+            "public override void _EnterTree() {",
+            "    base._EnterTree();$1",
+            "}"
+        ],
+        "description": "Godot _EnterTree() virtual method"
+    },
+    "Godot _Ready()": {
+        "prefix": "ready",
+        "body": [
+            "public override void _Ready() {",
+            "    base._Ready();$1",
+            "}"
+        ],
+        "description": "Godot _Ready() virtual method"
+    },
+    "Godot _Process()": {
+        "prefix": "process",
+        "body": [
+            "public override void _Process(double delta) {",
+            "    base._Process(delta);$1",
+            "}"
+        ],
+        "description": "Godot _Process() virtual method"
+    },
+    "Godot _PhysicsProcess()": {
+        "prefix": "propcessp",
+        "body": [
+            "public override void _PhysicsProcess(double delta) {",
+            "    base._PhysicsProcess(delta);$1",
+            "}"
+        ],
+        "description": "Godot _PhysicsProcess() virtual method"
+    },
+    "Godot _ExitTree()": {
+        "prefix": "exittree",
+        "body": [
+            "public override void _ExitTree() {",
+            "    base._ExitTree();$1",
+            "}"
+        ],
+        "description": "Godot _ExitTree() virtual method"
+    },
+
+    // Input virtual methods
+    "Godot _Input()": {
+        "prefix": "input",
+        "body": [
+            "public override void _Input(InputEvent @event) {",
+            "    base._Input(@event);$1",
+            "}"
+        ],
+        "description": "Godot _Input() virtual method"
+    },
+    "Godot _ShortcutInput()": {
+        "prefix": "inputs",
+        "body": [
+            "public override void _ShortcutInput(InputEvent @event) {",
+            "    base._ShortcutInput(@event);$1",
+            "}"
+        ],
+        "description": "Godot _ShortcutInput() virtual method"
+    },
+    "Godot _UnhandledInput()": {
+        "prefix": "inputu",
+        "body": [
+            "public override void _UnhandledInput(InputEvent @event) {",
+            "    base._UnhandledInput(@event);$1",
+            "}"
+        ],
+        "description": "Godot _UnhandledInput() virtual method"
+    },
+    "Godot _GuiInput()": {
+        "prefix": "inputg",
+        "body": [
+            "public override void _GuiInput(InputEvent @event) {",
+            "    base._GuiInput(@event);$1",
+            "}"
+        ],
+        "description": "Godot _GuiInput() virtual method"
+    },
+
+    // Other virtual methods
+    "Godot _Notification()": {
+        "prefix": "noti",
+        "body": [
+            "public override void _Notification(int what) {",
+            "    base._Notification(what);$1",
+            "}"
+        ],
+        "description": "Godot _Notification() virtual method"
+    },
+    "Godot _Draw()": {
+        "prefix": "draw",
+        "body": [
+            "public override void _Draw() {",
+            "    base._Draw();$1",
+            "}"
+        ],
+        "description": "Godot _Draw() virtual method"
+    },
+
+    // Godot exported properties
+    "Godot [Export]": {
+        "prefix": "export",
+        "body": "[Export] ${1:private} ${2:Node} ${3:Type};",
+        "description": "Godot [Export] attribute"
+    },
+    "Godot [ExportGroup]": {
+        "prefix": "exportg",
+        "body": "[ExportGroup(\"$1\")]",
+        "description": "Godot [ExportGroup] attribute"
+    },
+    "Godot [ExportSubgroup]": {
+        "prefix": "exportsg",
+        "body": "[ExportSubgroup(\"$1\")]",
+        "description": "Godot [ExportSubgroup] attribute"
+    },
+    "Godot [ExportCategory]": {
+        "prefix": "exportc",
+        "body": "[ExportCategory(\"$1\")]",
+        "description": "Godot [ExportCategory] attribute"
+    },
+}
