@@ -3,7 +3,7 @@
     "displayName": "Godot Snippets for C#",
     "description": "Godot code snippets for C#",
     "icon": "icon.png",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "altamkp",
     "engines": {
         "vscode": "^1.86.0"
