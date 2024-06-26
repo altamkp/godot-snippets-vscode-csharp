@@ -35,7 +35,7 @@
         "description": "Godot _Process() virtual method"
     },
     "Godot _PhysicsProcess()": {
-        "prefix": "processp",
+        "prefix": "pprocess",
         "body": [
             "public override void _PhysicsProcess(double delta) {",
             "    base._PhysicsProcess(delta);$1",
