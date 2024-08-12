@@ -20,6 +20,38 @@ Press `tab` to select the snippet from the suggestions.
 
 ## Available snippets
 
+### Node Template
+
+<table>
+<tr>
+<td> Prefix </td> <td> Body </td>
+</tr>
+<tr>
+<td>
+
+`node`
+
+</td>
+<td>
+
+```csharp
+using Godot;
+
+public partial class CustomNode : Node {
+    public override void _Ready() {
+        base._Ready();
+    }
+
+    public override void _Process(double delta) {
+        base._Process(delta);
+    }
+}
+```
+
+</td>
+</tr>
+</table>
+
 ### Utilities
 
 <table>

@@ -1,11 +1,29 @@
 {
+    // Node template
+    "Godot custom node template": {
+        "prefix": "node",
+        "body": [
+            "using Godot;",
+            "",
+            "public partial class ${1:$TM_FILENAME_BASE} : ${2:Node} {",
+            "    public override void _Ready() {",
+            "        base._Ready();",
+            "    }",
+            "",
+            "    public override void _Process(double delta) {",
+            "        base._Process(delta);",
+            "    }",
+            "}"
+        ],
+        "description": "Print to Godot console"
+    },
+    
     // Godot utils
     "Godot print": {
         "prefix": "print",
         "body": "GD.Print($1);",
         "description": "Print to Godot console"
     },
-    
     // Lifecycle virtual methods
     "Godot _EnterTree()": {
         "prefix": "entertree",
@@ -52,7 +70,6 @@
         ],
         "description": "Godot _ExitTree() virtual method"
     },
-
     // Input virtual methods
     "Godot _Input()": {
         "prefix": "input",
@@ -90,7 +107,6 @@
         ],
         "description": "Godot _GuiInput() virtual method"
     },
-
     // Other virtual methods
     "Godot _Notification()": {
         "prefix": "noti",
@@ -110,7 +126,6 @@
         ],
         "description": "Godot _Draw() virtual method"
     },
-
     // Godot exported properties
     "Godot [Export]": {
         "prefix": "export",
